@@ -1,0 +1,298 @@
+body{
+    background-color: black;
+    
+}
+
+a{
+    text-decoration:none;
+}
+.nav a{
+    color:rgb(30, 215, 96);
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-around;
+    width:10%;}
+    
+    
+ul{
+    list-style:none;
+}
+
+
+/* .nav_bar_content:hover{
+    color: rgba(233, 232, 241, 0.84);
+    text-decoration: underline;
+} */
+    
+    
+
+.nav_ops{
+    
+    padding-left:5%;
+    padding-right:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left:70px;
+    padding-right:70px;
+    
+    padding-top:30px;
+    cursor: pointer;
+    padding-bottom:30px;
+    
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    font-size: larger;
+    position: relative;
+    bottom:50px;
+    margin-top:4%;
+}
+@font-face {
+    font-family: myfont;
+    src: trebuchet-ms-2-cufonfonts;
+}
+
+
+
+/* .nav_ops:hover{
+    background-color: rgb(96, 87, 87);
+    transition:0.2s;
+}
+
+
+a:hover{
+    transform: scale(1.2);
+    
+    
+    
+} */
+
+ 
+#logo{
+     
+    width:150%;
+    
+    
+
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+img{
+    height:350px;
+    width:350px;
+    margin: auto;
+    /* border:2px solid white; */
+    object-fit: contain;
+    object-position: center;
+}
+
+ nav img{
+    height:100px;
+    width:100px;
+    border:none;
+    float:left;
+}
+.text_artist{
+    color:white;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: myfont;
+    line-height: 30px;
+}
+.artist-pic{
+    width:100%;
+    height:250px;
+    text-align: center;
+}
+
+.banner-text{
+    float: left;
+    color: white;
+    font-size: 78px;
+    margin-left: 10%;
+}
+
+.banner{
+    background-image:url("Taylor_bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:900px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    
+    border-bottom:4px solid white;
+
+    
+        
+}
+
+.x{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    color:white;
+    font-size: 70px;
+    margin-left:5%;
+}
+
+
+.album_image{
+    width: 250px;
+    margin-left: 50px;
+    margin-top:none;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    object-position: top;
+    height: 400px;
+}
+
+.name{
+    color:white;
+    margin-left: 50px;
+    font-size: x-large;
+    font-family: myfont;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.name:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(156, 156, 255);
+
+}
+
+.album_image{
+    opacity:0.6;
+    transition: 1s ease;
+    }
+    
+    .album_image:hover{
+    opacity:1;
+    transition: 1s ease;
+    
+    }
+
+.album_name:hover{
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+.stats{
+    background-image:url("https://images.wallpaperscraft.com/image/single/green_background_texture_65793_1600x1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:950px;
+    border-top:4px solid white;
+}
+
+.stat{
+    color:white;
+    margin:3%;
+    padding:10px;
+    font-size: 35px;
+    
+    line-height: 60px;
+    margin-right: 40%;
+}
+
+.list{
+    padding-top:150px;
+    padding-bottom:150px;
+    
+}
+
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    margin-left :40%;
+    margin-right:40%;
+}
+
+.socials img{
+    height:80px;
+    background-color:black;
+    padding:5px;
+    
+}
+
+.socials img:hover{
+    background-color:white;
+    transition:1s ease;
+}
+
+
+.listen{
+    margin: auto;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+container {
+    min-height: 100%;
+    margin-bottom: 20px; 
+  }
+
+.foot-head{
+    font-size:50px;
+}
+
+
+
+
+.wrapper {
+    width:100%;
+    position:fixed;
+    z-index:10;
+    background-color: black;
+    height:110px;
+    opacity:1;
+    border-bottom:4px solid white;
+    top:0;
+    padding:5px;
+}
+
+.bottom-wrapper {
+    width:100%;
+    padding-top:92px;
+    z-index:5;
+    /* overflow:auto; */
+}
+
+footer {
+    margin-bottom: -20px; /* set to the height of your footer */
+  }
+
+  .foot-text{
+    padding-bottom:20px;
+    margin-bottom:none;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color:whitesmoke;
+    font-weight:bold;
+    line-height:50px;
+    background-color:rgba(7, 13, 64, 0.948);
+    padding-top:15px;
+}

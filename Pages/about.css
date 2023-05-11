@@ -1,0 +1,425 @@
+
+
+body{
+    background-color: black;
+}
+
+
+a{
+    text-decoration: none;
+}
+.nav a{
+    color:rgb(30, 215, 96);
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-around;
+    /* text-shadow:1px 1px 20px rgb(231, 232, 233); */
+    width:10%;}
+    
+    
+    
+ul{
+    list-style:none;
+}
+
+h1{
+    text-align:left;
+    color:white;
+    font-size:70px;
+    line-height:100px;
+}
+
+/* .nav_bar_content:hover{
+    color: rgba(233, 232, 241, 0.84);
+    text-decoration: underline;
+}
+     */
+    
+
+.nav_ops{
+    
+    padding-left:5%;
+    padding-right:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left:70px;
+    padding-right:70px;
+    
+    padding-top:30px;
+    cursor: pointer;
+    padding-bottom:30px;
+    
+}
+
+
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0%;
+    font-size: larger;
+    position: relative;
+    bottom:50px;
+    margin-top:4%;
+    
+    
+
+}
+
+
+
+
+img{
+    height:350px;
+    width:350px;
+    margin: auto;
+    /* border:2px solid white; */
+    object-fit: contain;
+    object-position: center;
+}
+
+.menu{
+    
+    padding:20px;
+    margin-left:none;
+    margin-right:none;
+}
+
+
+.browse{
+    display:flex;
+    justify-content: space-around;
+    margin-left: 25px;
+    color:white;
+    
+}
+   
+
+
+.menu_panel > * {
+    margin-bottom: 40px;
+    margin-top:40px;
+
+}
+
+#artists{
+    margin-bottom: 50px;
+}
+#songs{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+#albums{
+    margin-top:50px;
+}
+
+
+h1{
+    font-family: 'Allerta', sans-serif;
+    color:greenyellow;
+}
+
+.main{
+    background-color: white;
+    display:block;
+    
+    list-style:none;
+    font-family:'Montserrat', sans-serif;
+    margin-left:none;
+    margin-right:none;
+
+    
+}
+
+.main_text{
+    color:white;
+    
+    padding:50px;
+    padding-top:10px;
+    
+    display:block;
+}
+
+/* h2{
+    line-height: 50px;
+    text-align: center;
+    /* text-shadow:1px 1px 20px white; */
+  
+
+
+
+.indiv{
+    /* background-color:rgb(36, 35, 35); */
+    background-color: black;
+    padding:20px;
+    padding-top:5px;
+    /* border: 2px solid white; */
+    border-radius:5px;
+    /* box-shadow: 4px 4px 4px greenyellow; */
+    font-family: 'Cute Font', cursive;
+    font-size: 40px;
+
+}
+
+.indiv:hover{
+    transform: scale(1.05);
+}
+
+#logo{
+     
+    width:150%;
+    
+    
+
+    }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.header{
+
+    margin-right: auto;
+}
+
+
+ nav img{
+    height:100px;
+    width:100px;
+    border:none;
+    float:left;
+    
+}
+
+
+.art_image{
+    border:0px solid white;
+    border-radius: 25px;
+}
+
+
+
+
+.main-body{
+    padding:20px;
+    margin-left:5%;
+    margin-right:none;
+}
+
+.body-text{
+    color:aquamarine;
+    font-size: 30px;
+    line-height:40px;
+}
+
+h2{
+    color:white;
+    font-size: 50px;
+}
+
+.our-image {
+    display: flex;
+    justify-content: space-evenly;
+    margin:0;
+    
+
+  }
+  
+  
+
+  .info{
+    color:rgb(123, 120, 120);
+    text-align: center;
+  }
+
+  .border-image{
+    border:2px solid white;
+    width:30%;
+    text-align: center;
+    
+
+  }
+
+  .photos{
+    object-fit: cover; 
+    margin: auto;
+    height: 100px;
+  }
+
+  .image_creators{
+    border-radius: 250px;
+    margin-bottom: 30px;
+    float: left;
+    margin-right: 30px;
+    padding:20px;
+  }
+
+  .image_creators:hover{
+    transform: scale(1.05);
+    transition:0.4s ease;
+  }
+
+  .text_creators{
+    color: rgb(217,217,227);
+    font-size: 25px;
+    line-height:40px;
+    padding:2%;
+    color:black;
+  }
+  .Email{
+    color: rgb(217,217,227);
+    font-size: 25px;
+    color:black;
+  }
+  .Email:hover{
+    text-decoration: underline;
+    color: aquamarine;
+  }
+
+  .creators {
+    width: 90vw;
+    height: 400px;
+    border:1px solid white;
+    margin-top:30px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.spotify_logo{
+    width: 60px;
+    /* margin-top: 10px; */
+    height: 60px;
+    /* float: left; */
+
+}
+
+
+.spotify{
+    
+    width:8%;
+    margin-right:50%;
+
+    
+}
+.connectme{
+    color:black;
+    font-size:20px;
+    line-height:20px;
+}
+.img-socials{
+    display:flex;
+    justify-content: space-around;
+    margin-right:75%;
+    padding-left:5%;
+    
+}
+.link{
+    color: rgb(217,217,227);
+    font-size: 20px;
+    float:left;
+    margin-left: 30px;
+}
+.link:hover{
+    text-decoration: underline;
+    color: brown;
+    cursor: pointer;
+}
+.spotify{
+    width: 100vw;
+    height: 80px;
+    margin-bottom: 0px;
+}
+.linkedin_logo{
+    width: 60px;
+    /* margin-top: 10px; */
+    height: 60px;
+    /* float: left;
+    margin-right: 0px; */
+    padding-left:10px;
+}
+.l_link{
+    color: rgb(217,217,227);
+    font-size: 20px;
+    float:left;
+    margin-left: 0px;
+    margin-top: 18px;
+}
+.l_link:hover{
+    text-decoration: underline;
+    color: brown;
+    cursor: pointer;
+}
+.linkedin{
+    width: 100vw;
+    height: 80px;
+    margin-bottom: 0px;
+}
+
+.purpose_text{
+    color:aquamarine;
+    font-size: 30px;
+    line-height:40px;
+}
+
+.Community{
+    font-size: 40px;
+}
+
+
+
+.container {
+    min-height: 100%;
+    margin-bottom: 20px; 
+  }
+
+.foot-head{
+    font-size:50px;
+}
+
+
+
+
+.wrapper {
+    width:100%;
+    position:fixed;
+    z-index:10;
+    background-color: black;
+    height:110px;
+    opacity:1;
+    
+    top:0;
+    padding:5px;
+}
+
+.bottom-wrapper {
+    width:100%;
+    padding-top:92px;
+    z-index:5;
+    /* overflow:auto; */
+}
+
+footer {
+    margin-bottom: -20px; /* set to the height of your footer */
+  }
+
+  .foot-text{
+    padding-bottom:20px;
+    margin-bottom:none;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color:whitesmoke;
+    font-weight:bold;
+    line-height:50px;
+    background-color:rgba(7, 13, 64, 0.948);
+    padding-top:15px;
+}
+

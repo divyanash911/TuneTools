@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="search.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="wrapper">
+  <nav>
+    <div class="header" >
+      <a href="homepage.html"> <img src="Logo-ISS.png" id="logo"></a>
+    </div>
+    <div ><ul class="nav">
+        <li class="nav_ops">
+            <a class="nav_bar_content" href="about.html"><strong>About</strong></a>
+        </li>
+        <li class="nav_ops">
+            <a class="nav_bar_content" href="artists.html"><strong>Artists</strong></a>
+        </li>
+        <li class="nav_ops">
+            <a class="nav_bar_content" href="homepage.html"><strong>Home</strong></a>
+        </li>
+        <li class="nav_ops">
+           <a class="nav_bar_content" href="gini.html"><strong>Spotlight</strong></a>
+        </li>
+        <li class="nav_ops">
+            <a class="nav_bar_content" href="search.html"><strong>Search</strong></a>
+        </li>
+        <li class="nav_ops">
+          <a class="nav_bar_content" href="playlist.html"><strong>Playlist</strong></a>
+      </li>
+    </ul>
+    </div></nav>
+  </div>
+  <div class="searchhead">Search</div>
+<div class="search-container">
+  <form class="search_bar">
+    <input type="text" name="q" id="search-bar" placeholder="Search...">
+    <button type="submit" class="search_button"><img src="search_button.png" alt=""></button>
+  </form>
+</div>
+ 
+<div class="filter-container">
+  <div class="checkbox-container">
+    <label for="input-checkbox" class="duration_text">Duration</label>
+    <input type="checkbox" id="input-checkbox">
+  </div>
+  <div id="input-div" style="display:none;">
+    <label for="input-field" class="filter_text">Enter Time:</label>
+    <input type="text" id="input-field">
+  </div>
+  <div class="explicit">
+    <label for="input-checkbox" class="filter_text">Remove Explicit</label>
+    <input type="checkbox" id="input-checkbox1">
+  </div>
+  <button id="clear-button1" class="filter_text2">Filter</button>
+  <button id="clear-button" class="filter_text1">Clear filters</button>
+</div>
+
+<div class="result">
+<table id="search_result"></table></div>
+</div>
+</div>
+
+</div>
+<script src="search.js"></script>
+</body>
+</html>
