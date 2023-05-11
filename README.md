@@ -48,8 +48,9 @@ The Pages directory contains all the relevant pages.
 To open our website you need to open the html document named "homepage.html"  and "app.py" found in "Pages" directory. All other pages are accesible from the same.
 Otherwise it is easier to open the project web-warriors-Phase-3 folder in terminal and run the following command
 
+```bash
 bash start.sh
-
+```
 (In case it doesnt work you need to start app.py and homepage.html in Pages directory)
 Hassle free!Enjoy TuneTools!
 You can start app.py using the command python3 app.py and homepage.html is in Pages directory..
